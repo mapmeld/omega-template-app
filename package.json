@@ -1,0 +1,7 @@
+{
+  "name": "omega-template-app",
+  "version": "1.0.0",
+  "dependencies": {
+    "omega-sqrt": "git://github.com/mapmeld/omega-sqrt.git#9d8c2c54a2"
+  }
+}
