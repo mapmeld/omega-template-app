@@ -4,13 +4,24 @@ Initial template app for Ωpm ("omega package manager"), using a Ωpm package
 
 ## Concept
 
-Ωpm is an end-to-end JavaScript package manager with verified builds.
+Ωpm is a JavaScript package manager with verified builds. This means that the package
+that you install on your computer is pure JavaScript, identical to the one created by
+its developer, and installing it will not run any other scripts or compile additional
+code. By using Ω in place of require, you can also verify the package is unchanged before
+starting the server.
 
-Concept: https://gist.github.com/mapmeld/7eb3b213358b55b74bdf
+Original gist: https://gist.github.com/mapmeld/7eb3b213358b55b74bdf
 
 ## Usage
 
-### Future: Ωpm install
+### Ωpm install
+
+Use omegapm >= 0.0.2
+
+```
+npm install omegapm -g
+omegapm install  # or Ωpm install
+```
 
 ### Include omega-require and dependencies in app.js
 
@@ -18,7 +29,7 @@ Concept: https://gist.github.com/mapmeld/7eb3b213358b55b74bdf
 // use regular require here
 var Ω = require("omega-require");
 
-// async SHA-checking require here
+// async SHA-checking for Ωpm modules
 Ω("omega-sqrt", "9d8c2c54a2", function(err, mod) {
 
   var sqrt = mod.sqrt;

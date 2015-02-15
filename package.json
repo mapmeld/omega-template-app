@@ -1,6 +1,6 @@
 {
   "name": "omega-template-app",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "basic app using omega package manager",
   "keywords": [
     "omegapm"
