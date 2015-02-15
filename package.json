@@ -1,7 +1,27 @@
 {
   "name": "omega-template-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "description": "basic app using omega package manager",
+  "keywords": [
+    "omegapm"
+  ],
+  "author": "mapmeld",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mapmeld/omega-template-app.git"
+  },
   "dependencies": {
-    "omega-sqrt": "git://github.com/mapmeld/omega-sqrt.git#9d8c2c54a2"
-  }
+    "omegapm-require": "0.0.5",
+    "omega-sqrt": "git://github.com/mapmeld/omega-sqrt.git#c05f4c0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "license": "GPL-3.0+",
+  "engines": {
+    "node": ">= 0.8.x"
+  },
+  "files": [
+    "app.js"
+  ]
 }
