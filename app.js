@@ -2,7 +2,7 @@
 // app.js
 
 var Ω = require("omegapm-require");
-Ω("omega-sqrt", "b640e772a9762cea6f3cd4edc1d272b7b4301ce9", function(err, mod) {
+Ω("omega-sqrt", "f8836fd69102395cb4737affc3591fab1deca8d6", function(err, mod) {
   if (err) {
     console.log(err);
   }
