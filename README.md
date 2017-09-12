@@ -1,5 +1,7 @@
 # omega-template-app
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mapmeld/omega-template-app.svg)](https://greenkeeper.io/)
+
 Initial template app for Ωpm ("omega package manager"), using a Ωpm package
 
 ## Concept
